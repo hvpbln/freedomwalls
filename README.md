@@ -1,20 +1,20 @@
 # Freedom Wall
 
-Freedom Wall
-│
-├── Landing/Home
-│   ├── Display slogan
-│   ├── Add Post (anonymous)
-│   └── View Approved Posts (tab)
-│
-└── Authentication
-    ├── Login
-    └── Admin Panel (after login)
-         └── Posts for Approval
-         └── View pending posts
-         └── Approve post
-         └── Decline post
-         └── Logout
+Freedom Wall<br>
+│<br>
+├── Landing/Home<br>
+│   ├── Display slogan<br>
+│   ├── Add Post (anonymous)<br>
+│   └── View Approved Posts (tab)<br>
+│<br>
+└── Authentication<br>
+    ├── Login<br>
+    └── Admin Panel (after login)<br>
+         └── Posts for Approval<br>
+         └── View pending posts<br>
+         └── Approve post<br>
+         └── Decline post<br>
+         └── Logout<br>
 
 ---
 
