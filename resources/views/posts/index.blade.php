@@ -51,7 +51,7 @@
         @forelse ($posts as $post)
             <div class="post">
                 {{ $post->content }}
-                <div class="timestamp">{{ $post->created_at->diffForHumans() }}</div>
+                <div class="post-meta">{{ $post->created_at->format('F j, Y g:i A') }}</div>
             </div>
         @empty
             <p>No accepted posts yet.</p>
