@@ -19,7 +19,7 @@
     @forelse ($pendingPosts as $post)
         <div class="post-card">
             <p>{{ $post->content }}</p>
-            <div class="post-meta">{{ $post->created_at->diffForHumans() }}</div>
+            <div class="post-meta">{{ $post->created_at->format('F j, Y g:i A') }}</div>
 
             <div class="post-actions">
                 <form action="{{ route('posts.accept', $post->id) }}" method="POST" style="display:inline-block">
@@ -50,7 +50,7 @@
     @forelse ($acceptedPosts as $post)
         <div class="post-card">
             <p>{{ $post->content }}</p>
-            <div class="post-meta">{{ $post->created_at->diffForHumans() }}</div>
+            <div class="post-meta">{{ $post->created_at->format('F j, Y g:i A') }}</div>
 
             <form action="{{ route('posts.destroy', $post->id) }}" method="POST" class="post-actions">
                 @csrf
