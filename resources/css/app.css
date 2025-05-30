@@ -1,6 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
+
+
+
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+    background-color: #dcdcdc;
+    }
+
+    header {
+    background-color: #3d6e71;
+    padding: 30px 30px;
+    }
+
+    .nav-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .logo {
+    position: absolute;
+    left: 30px;
+    font-size: 29px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: normal;
+    color: white;
+    text-transform: lowercase;
+    }
+
+    nav {
+    display: flex;
+    gap: 30px;
+    }
+
+    nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    }
+
+    nav a:first-child {
+    font-weight: bold;
+    }
+
+    .brand-title {
+    text-align: center;
+    font-size: 85px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: normal;
+    color: #2f4555;
+    margin: 40px 0 20px;
+    }
+
+    .post-box {
+    max-width: 900px;
+    background-color: #3d6e71;
+    margin: 0 auto;
+    padding: 40px 20px;
+    border: 15px solid white;
+    box-shadow: 30px 30px 0px #888;
+    }
+
+    .tagline {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'Chewy', cursive;
+    margin-bottom: 30px;
+    }
+
+    .input-box {
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    }
+
+    .input-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    }
+
+    .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    }
+
+    .input-content input {
+    flex: 1;
+    border: none;
+    background-color: #e2e3e7;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    outline: none;
+    color: #444;
+    }
+
+    hr {
+    border: 1px solid #eee;
+    margin: 10px 0;
+    }
+
+    .photo-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    }
+
+    .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+    }
+
+
+    .photo-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+    }
+
+
+
+
+
+
 /* Base Layout */
 body {
     background-color: white;

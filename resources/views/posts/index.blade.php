@@ -6,10 +6,27 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    <div class="container">
+    <body>
+  <header>
+    <div class="nav-container">
+      <div class="logo">freedomwall.</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Post</a>
+        <a href="{{ route('login') }}" class="btn btn-primary">Admin Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="brand-title">freedomwall.</h1>
+  </main>
+</body>
+
+
+    <div class="post-box">
         <div class="header">
-            <h1 class="heading">Anonymous Posts</h1>
-            <a href="{{ route('login') }}" class="btn btn-blue">Login</a>
+                  <h2 class="tagline">Write. Express. Be Heard.</h2>
         </div>
 
         @if (session('success'))
@@ -26,6 +43,7 @@
             @enderror
             <button type="submit" class="btn btn-green">Submit</button>
         </form>
+
 
         <hr class="divider">
 
